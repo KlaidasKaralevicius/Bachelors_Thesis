@@ -1,0 +1,20 @@
+path: /home/kaemri/Semester/bachelors/Bachelors_Thesis/split_dataset
+
+train: images/train
+val: images/val
+
+names:
+  0: fork
+  1: spoon
+  2: knife
+  3: ladle
+  4: spatula
+  5: bowl
+  6: plate
+  7: cup
+  8: frying pan
+  9: sauce pan
+  10: colander
+  11: pan lid
+  12: grater
+  13: cutting board
