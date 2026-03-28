@@ -32,6 +32,22 @@ Repository for Bachelor Thesis on how limited dataset contributes to custom solu
 - Pan lid – 133 total; 
 - Grater – 136 total; 
 - Cutting board – 137 total.
+**Split dataset distribution**:
+*CLASS            | TRAIN | VAL | TEST*
+- fork             | 94        | 27   | 14
+- spoon         | 93        | 24   | 18
+- knife            | 100     | 23   | 11
+- ladle            | 99       | 22   | 13
+- spatula        | 100     | 24   | 10
+- bow             | 93       | 23   | 18
+- plate            | 97       | 25   | 13
+- cup              | 101     | 22   | 11
+- frying pan     | 96      | 27   | 11
+- sauce pan    | 103    | 22   | 10
+- colander       | 99      | 22   | 12
+- pan lid           | 98     | 22   | 13
+- grater            | 99     | 26   | 11
+- cutting board | 101   | 24   | 12
 **Image parameters:**
 - 3 backgrounds;
 - 20-90 angle;
