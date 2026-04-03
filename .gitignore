@@ -1,4 +1,8 @@
 .venv
 split_dataset
 yolo26n.pt
+yolo26s.pt
+yolo26m.pt
+yolo26l.pt
+yolo26x.pt
 runs/
