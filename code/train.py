@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO("yolo26m.pt") # yolo26n-s-m-l-x.pt
+model = YOLO("weights/yolo26m.pt") # yolo26n-s-m-l-x.pt
 # train models
 train = model.train(
     data='dataset.yaml',
