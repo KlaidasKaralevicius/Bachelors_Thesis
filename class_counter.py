@@ -1,7 +1,7 @@
 import os
 from collections import Counter
 
-folder = "<Path to>/data/labels"
+folder = "data/labels"
 
 # load classes
 with open(os.path.join(folder, "classes.txt"), "r") as f:
