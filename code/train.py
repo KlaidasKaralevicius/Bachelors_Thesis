@@ -1,15 +1,16 @@
 from ultralytics import YOLO
 
-model = YOLO("weights/yolo26m.pt") # yolo26n-s-m-l-x.pt
+model = YOLO("./weights/yolo26x.pt") # yolo26n-s-m-l-x.pt
 # train models
 train = model.train(
     data='dataset.yaml',
     epochs=100,
     imgsz=640,
+    freeze=10,
     optimizer='MuSGD',
-    batch=0.80,
+    batch=12,
     seed=226,
-    name='medium', # nano, small, medium, large, xlarge
+    name='xlarge', # nano, small, medium, large, xlarge
     project='train',
     exist_ok=True,
     device=0
