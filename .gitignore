@@ -2,3 +2,4 @@
 split_dataset
 runs/
 weights
+gt.json
