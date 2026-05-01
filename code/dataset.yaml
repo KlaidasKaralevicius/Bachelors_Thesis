@@ -1,4 +1,4 @@
-path: /home/kaemri/Semester/bachelors/Bachelors_Thesis/split_dataset
+path: ../split_dataset
 
 train: images/train
 val: images/val
