@@ -3,3 +3,4 @@ split_dataset
 runs/
 weights
 gt.json
+video.mp4
