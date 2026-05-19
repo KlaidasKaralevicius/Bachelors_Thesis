@@ -14,8 +14,8 @@ Repository for Bachelor Thesis on how limited dataset contributes to custom solu
 - requirements.txt - pip packages to launch python scripts;
 - raspberry_pi/metrics/ - text files with metrics from Raspberry Pi 5 runs for each YOLO size.
 ### Dataset
-1050 images containg 14 classes, 1051 labels (1 for each image + .txt file linking class index to class name).\n
-**Image description:**
+1050 images containg 14 classes, 1051 labels (1 for each image + .txt file linking class index to class name).
+#### Image description:
 - 20 empty;
 - 302 multi-object;
 - 52 single object for each class;
@@ -33,7 +33,7 @@ Repository for Bachelor Thesis on how limited dataset contributes to custom solu
 - Colander – 133 total; 
 - Pan lid – 133 total; 
 - Grater – 136 total; 
-- Cutting board – 137 total.\n
+- Cutting board – 137 total.
 #### Split dataset distribution:
 *CLASS            | TRAIN | VAL | TEST*
 - fork             | 94        | 27   | 14
