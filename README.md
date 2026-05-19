@@ -33,7 +33,7 @@ Repository for Bachelor Thesis on how limited dataset contributes to custom solu
 - Colander – 133 total; 
 - Pan lid – 133 total; 
 - Grater – 136 total; 
-- Cutting board – 137 total.
+- Cutting board – 137 total.\n
 **Split dataset distribution**:
 *CLASS            | TRAIN | VAL | TEST*
 - fork             | 94        | 27   | 14
