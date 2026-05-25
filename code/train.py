@@ -16,4 +16,5 @@ train = model.train(
     device=0
 )
 # export openvino for edge deployment
-model.export(format='openvino', end2end=True, batch=1)
+exported = YOLO('../runs/detect/train/xlarge/weights/best.pt')
+exported.export(format='openvino', end2end=True, batch=1)
