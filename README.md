@@ -5,6 +5,7 @@ Repository for Bachelor Thesis on how limited dataset contributes to custom solu
 - data/images - image folder;
 - data/labels - YOLO style bounding box annoation files + classes.txt file to link class name to class index;
 - data/predefined_classes.txt - all existing classes to create bounding boxes using labelImg tool;
+- data/split.json - train/val/test split used for thesis;
 - new_data_test - new images with new representations to test overfitting;
 - code/dataset.yaml and code/new_dataset.yaml - files to launch testing/training for yolo pipeline;
 - code/dataset.py - convert data folder to train/val/test split folder;
@@ -12,7 +13,7 @@ Repository for Bachelor Thesis on how limited dataset contributes to custom solu
 - code/test.ipynb - test every yolo model, format Raspberry Pi resource output, display graphs;
 - raspberry_pi/pi_test.py - launch live and video inference on Raspberry Pi 5 to run object detection using YOLO model and save working metrics (latency, fps, CPU and RAM utilization, temperature, energy use);
 - requirements.txt - pip packages to launch python scripts;
-- raspberry_pi/metrics/ - text files with metrics from Raspberry Pi 5 runs for each YOLO size.
+- raspberry_pi/metrics/ - text files with metrics from Raspberry Pi 5 runs for each YOLO size: *_live_*.txt represents inference on live camera footage, *_video_*.txt is test made on 20 second video prerecorded with a Raspberry Pi camera.
 ### Dataset
 1050 images containg 14 classes, 1051 labels (1 for each image + .txt file linking class index to class name).
 #### Image description:
@@ -63,3 +64,5 @@ Repository for Bachelor Thesis on how limited dataset contributes to custom solu
 - 4.6 mm focal length;
 - 1.80 EV aperture value;
 - Automatic exposure time and ISO speed rating.
+#### Releases
+Contains all weights aquired after training YOLO: *-trained.pt is transfer learned weights, *-trained_openvino_model.zip are folders with openVINO weighs exported from *-trained.pt
